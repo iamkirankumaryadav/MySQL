@@ -8,7 +8,8 @@
 Select database
 
 ```mysql
-USE Employee;
+# Database name
+USE Enterprise;
 ```
 
 
@@ -22,10 +23,10 @@ SELECT 'Kirankumar Yadav';
 SELECT 1 * 7;
 
 # Select Table ( All the rows and columns )
-SELECT * FROM Employee_Details;
+SELECT * FROM Employee;
 
 # Select required columns from table
-SELECT Name, Age, Designation, Salary FROM Employee_Details;
+SELECT Name, Age, Designation, Salary FROM Employee;
 
 # Select total rows of table
 SELECT COUNT(*) FROM Employee;
