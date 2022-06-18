@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a>
 
 
 <h4 name=use>1. USE</h4> 
@@ -36,3 +36,20 @@ FROM Employee;
 # Select total rows of table:
 SELECT COUNT(*) FROM Employee;
 ``` 
+
+<h4 name=top>3. TOP</h4> 
+
+```mysql
+SELECT TOP 5 * FROM Employee;
+```
+
+<h4 name=top>4. LIMIT</h4> 
+
+```mysql
+SELECT 
+Name, 
+Designation
+FROM Employee
+LIMIT 5;
+
+```
