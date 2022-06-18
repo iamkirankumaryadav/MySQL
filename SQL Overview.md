@@ -14,8 +14,13 @@ USE Employee;
 
 <h4 name=select>2. SELECT</h4> 
 
-Select | Read text
+Select | Read table.
 
 ```mysql
+# Select string or integer
 SELECT 'Kirankumar Yadav';
+SELECT 1 * 7;
+
+# Select Table
+SELECT * FROM Employee_Details.
 ```
