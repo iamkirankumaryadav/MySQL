@@ -8,7 +8,7 @@
 Select database
 
 ```mysql
-# Database name
+# Database name:
 USE Enterprise;
 ```
 
@@ -18,16 +18,16 @@ USE Enterprise;
 Select | Read table.
 
 ```mysql
-# Select string or integer
+# Select string or integer:
 SELECT 'Kirankumar Yadav';
 SELECT 1 * 7;
 
 # Select Table ( All the rows and columns )
 SELECT * FROM Employee;
 
-# Select required columns from table
+# Select required columns from table:
 SELECT Name, Age, Designation, Salary FROM Employee;
 
-# Select total rows of table
+# Select total rows of table:
 SELECT COUNT(*) FROM Employee;
 ``` 
