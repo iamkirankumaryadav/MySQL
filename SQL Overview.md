@@ -1,7 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a>
-<a href=#select>SELECT</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a>
 
 
 <h4 name=use>1. USE</h4> 
@@ -13,7 +12,7 @@ USE Employee;
 ```
 
 
-<h4 name=select>1. USE</h4> 
+<h4 name=select>2. SELECT</h4> 
 
 Select | Read text
 
