@@ -7,6 +7,6 @@
 
 Select database
 
-```sql
+```mysql
 USE Employee;
 ```
