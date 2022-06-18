@@ -1,12 +1,22 @@
 # `SQL`
 
 <a href=#use>USE</a>
+<a href=#select>SELECT</a>
 
 
-<h3 name=use>USE</h3> 
+<h4 name=use>1. USE</h4> 
 
 Select database
 
 ```mysql
 USE Employee;
+```
+
+
+<h4 name=select>1. USE</h4> 
+
+Select | Read text
+
+```mysql
+SELECT "Kirankumar Yadav";
 ```
