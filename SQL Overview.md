@@ -26,7 +26,12 @@ SELECT 1 * 7;
 SELECT * FROM Employee;
 
 # Select required columns from table:
-SELECT Name, Age, Designation, Salary FROM Employee;
+SELECT 
+'Kirankumar' || ' ' || 'Yadav' AS Name, 
+Age, 
+Designation, 
+Salary 
+FROM Employee;
 
 # Select total rows of table:
 SELECT COUNT(*) FROM Employee;
