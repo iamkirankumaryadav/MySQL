@@ -5,8 +5,8 @@
 
 <h3 name=use>USE</h3> 
 
-- Select database
+Select database
 
-```mysql
+```sql
 USE Employee;
 ```
