@@ -17,5 +17,5 @@ USE Employee;
 Select | Read text
 
 ```mysql
-SELECT "Kirankumar Yadav";
+SELECT 'Kirankumar Yadav';
 ```
