@@ -21,6 +21,6 @@ Select | Read table.
 SELECT 'Kirankumar Yadav';
 SELECT 1 * 7;
 
-# Select Table
-SELECT * FROM Employee_Details.
+# Select Table ( All the rows and columns )
+SELECT * FROM Employee_Details;
 ```
