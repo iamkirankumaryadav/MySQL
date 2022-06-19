@@ -46,10 +46,12 @@ SELECT TOP 5 * FROM Employee;
 <h4 name=top>4. LIMIT</h4> 
 
 ```mysql
-SELECT 
-Name, 
-Designation
+SELECT Name, Designation
 FROM Employee
 LIMIT 5;
 
+# Offset
+SELECT Name, Designation
+FROM Employee
+LIMIT 10, 5;
 ```
