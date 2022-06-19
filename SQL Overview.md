@@ -77,6 +77,7 @@ VALUES ('Kirankumar Yadav', 26, 'IT Analyst')
 ```
 
 <h4 name=update>7. UPDATE</h4>
+
 The `UPDATE` statement is used to modify the existing records in a table.
 
 ```mysql
