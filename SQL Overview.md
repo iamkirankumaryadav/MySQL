@@ -1,7 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a>
-
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a>
 
 <h3 name=use><b>1. USE</b></h3> 
 
@@ -102,4 +101,14 @@ The `UPDATE` statement is used to modify the existing records in a table.
 UPDATE Employee
 SET Designation = 'Data Scientist'
 WHERE Name = 'Kirankumar Yadav';
+```
+
+<h3 name=delete><b>9. DELETE</b></h3>
+
+```mysql
+# First use SELECT query to select the exact row to be deleted.
+SELECT * FROM Employee WHERE Name = 'Kirankumar Yadav'
+
+# Delete 
+DELETE FROM Employee WHERE Name = 'Kirankumar Yadav'
 ```
