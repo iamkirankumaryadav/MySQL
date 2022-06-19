@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT</a> | <a href=#update>UPDATE</a>
 
 
 <h4 name=use>1. USE</h4> 
@@ -73,5 +73,13 @@ ORDER BY Name ASC Age DESC;
 
 ```mysql
 INSERT INTO Employee (Name, Age, Designation)
-VALUES ('Kirankumar Yadav', 26, 'Data Scientist')
+VALUES ('Kirankumar Yadav', 26, 'IT Analyst')
+```
+
+<h4 name=update>7. UPDATE</h4>
+
+```mysql
+UPDATE Employee
+SET Designation = 'Data Scientist'
+WHERE Name = 'Kirankumar Yadav';
 ```
