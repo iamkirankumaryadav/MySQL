@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a>
 
 <h3 name=use><b>1. USE</b></h3> 
 
@@ -111,4 +111,10 @@ SELECT * FROM Employee WHERE Name = 'Kirankumar Yadav';
 
 # Delete: 
 DELETE FROM Employee WHERE Name = 'Kirankumar Yadav';
+```
+
+<h3 name=drop><b>10. DROP</b></a>
+
+```mysql
+DROP TABLE Employee;
 ```
