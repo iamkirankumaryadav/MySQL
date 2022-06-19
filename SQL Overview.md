@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT</a> | <a href=#update>UPDATE</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a>
 
 
 <h3 name=use><b>1. USE</b></h3> 
@@ -69,7 +69,9 @@ FROM Employee
 ORDER BY Name ASC Age DESC;
 ```
 
-<h3 name=insert><b>6. INSERT</b></h3>
+<h3 name=insert><b>6. INSERT INTO</b></h3>
+
+The `INSERT INTO` statement is used to insert new records in a table.
 
 ```mysql
 INSERT INTO Employee (Name, Age, Designation)
