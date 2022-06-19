@@ -3,14 +3,16 @@
 ```mysql
 # Numeric - Integer 
 INT | INTEGER 
-47, 500, 235454345535
+# e.g. 47, 500, 235454345535
 
 # Numeric - Fixed Point  
 DECIMAL(Precision, Scale) 
-3.47, 10000000.47
+DECIMAL(1, 2), DECIMAL(8, 3), DECIMAL(10, 0)
+# e.g. 3.47, 10000000.474, 1234567890
 
 # Numeric - Floating Point
-3.47, 100.47e5
+NUMERIC(1, 2), NUMERIC(9, 2), FLOAT, DOUBLE
+# e.g. 3.47, 1234567.89
 
 # String - Fixed Length 
 '2286700', '4A11781', 'MB 4554'
