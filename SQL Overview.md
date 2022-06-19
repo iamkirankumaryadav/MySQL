@@ -109,7 +109,7 @@ CREATE TABLE Personal_Details
 );
 ```
 
-```mysql
+```sql
 # Check Default Constraints***
 SHOW CREATE TABLE Employee;
 ```
