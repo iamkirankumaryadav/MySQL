@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a> | <a href=#join>JOIN</a>
 
 <h3 name=use><b>1. USE</b></h3> 
 
@@ -69,7 +69,7 @@ ORDER BY Name;
 # Order by multiple columns:
 SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee
-ORDER BY Name ASC Age DESC;
+ORDER BY Name ASC, Age DESC;
 ```
 
 <h3 name=create><b>6. CREATE</b></h3>
@@ -117,4 +117,15 @@ DELETE FROM Employee WHERE Name = 'Kirankumar Yadav';
 
 ```mysql
 DROP TABLE Employee;
+```
+
+<h3 name=join><b>11. JOIN</b></h3>
+
+```sql
+SELECT a.Name AS Employee_Name, a.Age AS Employee_Age, a.Designation AS Employee_Designation,
+b.Address, b.salary, b.role
+FROM Employee AS a
+JOIN Personal_Details AS b
+ON a.id = b.id
+ORDER BY a.Name ASC, b.salary DESC;
 ```
