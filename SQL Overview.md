@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT</a>
 
 
 <h4 name=use>1. USE</h4> 
@@ -67,4 +67,11 @@ ORDER BY Name;
 SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee
 ORDER BY Name ASC Age DESC;
+```
+
+<h4 name=insert>6. INSERT</h4>
+
+```mysql
+INSERT INTO Employee (Name, Age, Designation)
+VALUES ('Kirankumar Yadav', 26, 'Data Scientist')
 ```
