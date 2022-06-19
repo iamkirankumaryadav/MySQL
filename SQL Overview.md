@@ -95,6 +95,18 @@ CREATE TABLE Employee
   Age INT,
   Designation VARCHAR(50)
 );
+
+CREATE TABLE Personal_Details
+(
+  ID INT NOT NULL AUTO_INCREMENT,
+  EID INT,
+  Address VARCHAR(50),
+  City VARCHAR(55),
+  State VARCHAR(55),
+  Pincode CHAR(6),
+  Role VARCHAR(55),
+  Designation VARCHAR(55)
+);
 ```
 
 <h3 name=insert><b>7. INSERT INTO</b></h3>
