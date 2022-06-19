@@ -29,8 +29,11 @@ SELECT * FROM Employee;
 SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee;
 
-# Select total rows of table:
+# Count total rows of table:
 SELECT COUNT(*) FROM Employee;
+
+# Count rows of particular column:
+SELECT COUNT(Name) FROM Employee;
 ``` 
 
 <h4 name=top>3. TOP</h4> 
