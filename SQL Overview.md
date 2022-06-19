@@ -26,11 +26,7 @@ SELECT 1 * 7;
 SELECT * FROM Employee;
 
 # Select columns from table:
-SELECT 
-'Kirankumar' || ' ' || 'Yadav' AS Name, 
-Age, 
-Designation, 
-Salary 
+SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee;
 
 # Select total rows of table:
@@ -60,20 +56,12 @@ LIMIT 10, 5;
 
 ```mysql
 # Order by single column:
-SELECT 
-'Kirankumar' || ' ' || 'Yadav' AS Name, 
-Age, 
-Designation, 
-Salary 
+SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee
 ORDER BY Name;
 
 # Order by multiple columns:
-SELECT 
-'Kirankumar' || ' ' || 'Yadav' AS Name, 
-Age, 
-Designation, 
-Salary 
+SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
 FROM Employee
 ORDER BY Name ASC Age DESC;
 ```
