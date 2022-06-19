@@ -106,9 +106,9 @@ WHERE Name = 'Kirankumar Yadav';
 <h3 name=delete><b>9. DELETE</b></h3>
 
 ```mysql
-# First use SELECT query to select the exact row to be deleted.
-SELECT * FROM Employee WHERE Name = 'Kirankumar Yadav'
+# First use SELECT query to select the exact row to be deleted:
+SELECT * FROM Employee WHERE Name = 'Kirankumar Yadav';
 
-# Delete 
-DELETE FROM Employee WHERE Name = 'Kirankumar Yadav'
+# Delete: 
+DELETE FROM Employee WHERE Name = 'Kirankumar Yadav';
 ```
