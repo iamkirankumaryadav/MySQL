@@ -59,12 +59,21 @@ LIMIT 10, 5;
 <h4 name=orderby>5. ORDER BY</h4>
 
 ```mysql
+# Order by single column:
 SELECT 
 'Kirankumar' || ' ' || 'Yadav' AS Name, 
 Age, 
 Designation, 
 Salary 
 FROM Employee
-ORDER BY Name
-;
+ORDER BY Name;
+
+# Order by multiple columns:
+SELECT 
+'Kirankumar' || ' ' || 'Yadav' AS Name, 
+Age, 
+Designation, 
+Salary 
+FROM Employee
+ORDER BY Name ASC Age DESC;
 ```
