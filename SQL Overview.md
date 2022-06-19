@@ -147,6 +147,8 @@ DELETE FROM Employee WHERE Name = 'Kirankumar Yadav';
 
 ```mysql
 DROP TABLE Employee;
+
+DROP TABLE IF EXIST Employee;
 ```
 
 <h3 name=join><b>11. JOIN</b></h3>
