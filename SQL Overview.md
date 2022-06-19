@@ -3,7 +3,7 @@
 <a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT</a> | <a href=#update>UPDATE</a>
 
 
-<h4 name=use>1. USE</h4> 
+<h3 name=use><b>1. USE</b></h3> 
 
 Select database
 
