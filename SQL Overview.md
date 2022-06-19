@@ -126,6 +126,6 @@ SELECT a.Name AS Employee_Name, a.Age AS Employee_Age, a.Designation AS Employee
 b.Address, b.salary, b.role
 FROM Employee AS a
 JOIN Personal_Details AS b
-ON a.id = b.id
+ON a.EID = b.EID
 ORDER BY a.Name ASC, b.salary DESC;
 ```
