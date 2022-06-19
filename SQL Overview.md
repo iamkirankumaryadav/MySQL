@@ -110,7 +110,7 @@ CREATE TABLE Personal_Details
 ```
 
 ```sql
-# Check Default Constraints***
+# Check Default Constraints:
 SHOW CREATE TABLE Employee;
 ```
 
