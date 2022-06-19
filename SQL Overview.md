@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a>
 
 
 <h4 name=use>1. USE</h4> 
@@ -25,7 +25,7 @@ SELECT 1 * 7;
 # Select Table ( All the rows and columns )
 SELECT * FROM Employee;
 
-# Select required columns from table:
+# Select columns from table:
 SELECT 
 'Kirankumar' || ' ' || 'Yadav' AS Name, 
 Age, 
@@ -54,4 +54,17 @@ LIMIT 5;
 SELECT Name, Designation
 FROM Employee
 LIMIT 10, 5;
+```
+
+<h4 name=orderby>5. ORDER BY</h4>
+
+```mysql
+SELECT 
+'Kirankumar' || ' ' || 'Yadav' AS Name, 
+Age, 
+Designation, 
+Salary 
+FROM Employee
+ORDER BY Name
+;
 ```
