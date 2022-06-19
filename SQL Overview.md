@@ -2,6 +2,19 @@
 
 <a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a> | <a href=#join>JOIN</a>
 
+### Finding Databases, Tables and Columns:
+```mysql
+# Databases:
+SHOW DATABASES;
+
+# Tables:
+USE Enterprise;
+SHOW Tables;
+
+# Columns in a table:
+DESCRIBE Employee;
+```
+
 <h3 name=use><b>1. USE</b></h3> 
 
 Select database
