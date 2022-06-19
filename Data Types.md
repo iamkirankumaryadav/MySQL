@@ -1,10 +1,10 @@
 # Data Types
 
 ```
-# Numeric - Integer 
+# Numeric - Integer - INT | INTEGER 
 47, 500, 235454345535
 
-# Numeric - Fixed Point
+# Numeric - Fixed Point - DECIMAL(Precision, Scale) 
 3.47, 10000000.47
 
 # Numeric - Floating Point
