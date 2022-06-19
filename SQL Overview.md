@@ -113,7 +113,7 @@ SELECT * FROM Employee WHERE Name = 'Kirankumar Yadav';
 DELETE FROM Employee WHERE Name = 'Kirankumar Yadav';
 ```
 
-<h3 name=drop><b>10. DROP</b></a>
+<h3 name=drop><b>10. DROP</b></h3>
 
 ```mysql
 DROP TABLE Employee;
