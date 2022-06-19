@@ -109,6 +109,11 @@ CREATE TABLE Personal_Details
 );
 ```
 
+```mysql
+# Check Default Constraints***
+SHOW CREATE TABLE Employee;
+```
+
 <h3 name=insert><b>7. INSERT INTO</b></h3>
 
 The `INSERT INTO` statement is used to insert new records in a table.
