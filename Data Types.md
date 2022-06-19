@@ -1,6 +1,6 @@
 # Data Types
 
-```
+```mysql
 # Numeric - Integer - INT | INTEGER 
 47, 500, 235454345535
 
