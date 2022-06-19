@@ -57,6 +57,8 @@ LIMIT 10, 5;
 
 <h3 name=orderby><b>5. ORDER BY</b></h3>
 
+The `ORDER BY` keyword is used to sort the result-set in ascending or descending order.
+
 ```mysql
 # Order by single column:
 SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name, Age, Designation, Salary 
