@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a>
 
 
 <h3 name=use><b>1. USE</b></h3> 
@@ -73,7 +73,19 @@ FROM Employee
 ORDER BY Name ASC Age DESC;
 ```
 
-<h3 name=insert><b>6. INSERT INTO</b></h3>
+<h3 name=create><b>6. CREATE</b></h3>
+
+```mysql
+CREATE TABLE Employee
+(
+  EID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(50),
+  Age INT,
+  Designation VARCHAR(50)
+);
+```
+
+<h3 name=insert><b>7. INSERT INTO</b></h3>
 
 The `INSERT INTO` statement is used to insert new records in a table.
 
@@ -82,7 +94,7 @@ INSERT INTO Employee (Name, Age, Designation)
 VALUES ('Kirankumar Yadav', 26, 'IT Analyst')
 ```
 
-<h3 name=update><b>7. UPDATE</b></h3>
+<h3 name=update><b>8. UPDATE</b></h3>
 
 The `UPDATE` statement is used to modify the existing records in a table.
 
