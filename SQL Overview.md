@@ -44,6 +44,8 @@ SELECT TOP 5 * FROM Employee;
 
 <h4 name=top>4. LIMIT</h4> 
 
+The `LIMIT` clause is used to specify the number of records to return.
+
 ```mysql
 SELECT Name, Designation
 FROM Employee
