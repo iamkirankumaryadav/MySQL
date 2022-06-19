@@ -13,7 +13,7 @@ USE Enterprise;
 ```
 
 
-<h4 name=select>2. SELECT</h4> 
+<h3 name=select><b>2. SELECT</b></h3> 
 
 Select | Read table.
 
@@ -36,7 +36,7 @@ SELECT COUNT(*) FROM Employee;
 SELECT COUNT(Name) FROM Employee;
 ``` 
 
-<h4 name=top>3. TOP</h4> 
+<h3 name=top><b>3. TOP</b></h3> 
 
 ```mysql
 SELECT TOP 5 * FROM Employee;
@@ -55,7 +55,7 @@ FROM Employee
 LIMIT 10, 5;
 ```
 
-<h4 name=orderby>5. ORDER BY</h4>
+<h3 name=orderby><b>5. ORDER BY</b></h3>
 
 ```mysql
 # Order by single column:
@@ -69,14 +69,14 @@ FROM Employee
 ORDER BY Name ASC Age DESC;
 ```
 
-<h4 name=insert>6. INSERT</h4>
+<h3 name=insert><b>6. INSERT</b></h3>
 
 ```mysql
 INSERT INTO Employee (Name, Age, Designation)
 VALUES ('Kirankumar Yadav', 26, 'IT Analyst')
 ```
 
-<h4 name=update>7. UPDATE</h4>
+<h3 name=update><b>7. UPDATE</b></h3>
 
 The `UPDATE` statement is used to modify the existing records in a table.
 
