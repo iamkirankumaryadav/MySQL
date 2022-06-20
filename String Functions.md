@@ -21,6 +21,7 @@ ORDER BY Name;
 
 ```mysql
 # BIN (Binary):
+SELECT BIN(32742)
 
 # OCT Base 8 (Octal):
 SELECT OCT(32742);
