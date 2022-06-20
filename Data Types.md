@@ -40,7 +40,7 @@ MEDIUMTEXT
 LONGTEXT
 ```
 
-``` sql
+````mysql
 # Date and Time
 # Current Date and Time ( Format: yyyy-mm-dd hh:mm:ss )
 SELECT NOW(); 
@@ -58,7 +58,7 @@ CREATE Temp (
 
 INSERT INTO Temp (Name)
 VALUES ('Kirankumar Yadav')
-```
+````
 
 ```mysql
 # Enumerations
