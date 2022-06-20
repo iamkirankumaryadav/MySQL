@@ -19,7 +19,7 @@ ORDER BY Name;
 
 ### String Concatenation:
 
-```mysq
+```mysql
 SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name;
 
 SELECT CONCAT('Kirankumar', ' ', 'Yadav') AS Name;
