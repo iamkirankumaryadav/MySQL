@@ -1,7 +1,7 @@
 # `String` Functions
 
-`_`: Single Character Wildcard.
-`%`: Multi Character Wildcard.
+## `_`: Single Character Wildcard.
+## `%`: Multi Character Wildcard.
 
 ```mysql
 # Select all the Names with second character as 'a':
