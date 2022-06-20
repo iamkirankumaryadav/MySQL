@@ -40,7 +40,7 @@ MEDIUMTEXT
 LONGTEXT
 ```
 
-```mysql
+```sql
 # Date and Time
 # Current Date and Time ( Format: yyyy-mm-dd hh:mm:ss )
 SELECT NOW(); 
