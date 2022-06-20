@@ -4,12 +4,6 @@
 # Numeric: Integer 
 INT 
 INTEGER 
-SELECT 4 + 5;
-SELECT 7 - 5;
-SELECT 7 / 5;
-SELECT 7 DIV 5;
-SELECT 7 % 5;
-SELECT 7 MOD 5;
 # e.g. 47, 500, 235454345535
 
 # Numeric: Fixed Point  
@@ -85,4 +79,15 @@ SET: Multiple values from list
 
 
 # Specialty
+```
+
+### Arithmetic Operators:
+
+```mysql
+SELECT 4 + 5;
+SELECT 7 - 5;
+SELECT 7 / 5;
+SELECT 7 DIV 5;
+SELECT 7 % 5;
+SELECT 7 MOD 5;
 ```
