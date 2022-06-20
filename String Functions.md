@@ -92,5 +92,6 @@ SELECT SUBSTRING_INDEX('My Name is Kirankumar', ' ', -1)
 
 ```mysql
 SELECT SOUNDEX('Bill'), SOUNDEX('Bell');
+SELECT SOUNDEX('Ache'), SOUNDEX('Ack');
 ```
 
