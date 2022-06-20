@@ -43,3 +43,17 @@ SELECT CONV(32742, 10, 16);
 # Convert base16 to base10:
 SELECT CONV('7FE6', 16, 10);
 ```
+
+### Trimming and Padding:
+
+`TRIM()`: Remove whitespace from the leading and trailing ends.
+
+```mysql
+SELECT TRIM(' Kirankumar      ') AS Name;
+
+SELECT * 
+FROM Customer
+WHERE Name Like TRIM('  Bill Smith ');
+
+SELECT CONCAT(TRIM('x' FROM 'xxxKirankumarxxx'), ' ', TRIM('x' FROM 'xxxYadavxxx')) AS Name;
+```
