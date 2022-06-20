@@ -60,3 +60,15 @@ SELECT CONCAT(TRIM('x' FROM 'xxxKirankumarxxx'), ' ', TRIM('x' FROM 'xxxYadavxxx
 SELECT RPAD('Kirankumar', 15, '.') AS Name;
 # e.g. Kirankumar.....
 ```
+
+### Case Conversion:
+
+```mysql
+# Uppercase:
+SELECT UPPER(Name) FROM Employee;
+SELECT UCASE(Name) FROM Employee;
+
+# Lowercase:
+SELECT LOWER(Name) FROM Employee;
+SELECT LCASE(Name) FROM Employee;
+```
