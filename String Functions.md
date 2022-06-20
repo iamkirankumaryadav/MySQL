@@ -46,9 +46,8 @@ SELECT CONV('7FE6', 16, 10);
 
 ### Trimming and Padding:
 
-`TRIM()`: Remove whitespace from the leading and trailing ends.
-
 ```mysql
+# TRIM(): Remove whitespace from the leading and trailing ends.
 SELECT TRIM(' Kirankumar      ') AS Name;
 
 SELECT * 
@@ -56,4 +55,8 @@ FROM Customer
 WHERE Name Like TRIM('  Bill Smith ');
 
 SELECT CONCAT(TRIM('x' FROM 'xxxKirankumarxxx'), ' ', TRIM('x' FROM 'xxxYadavxxx')) AS Name;
+
+# PAD(): Add characters at end:
+SELECT RPAD('Kirankumar', 15, '.') AS Name;
+# e.g. Kirankumar.....
 ```
