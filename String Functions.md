@@ -1,7 +1,7 @@
 # `String` Functions
 
 ```mysql
-# Select all the text in which second character should be a:
+# Select all Name with second character as 'a':
 SELECT Name 
 FROM Country
 WHERE Name LIKE '_a%' 
