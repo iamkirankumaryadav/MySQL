@@ -72,3 +72,25 @@ SELECT UCASE(Name) FROM Employee;
 SELECT LOWER(Name) FROM Employee;
 SELECT LCASE(Name) FROM Employee;
 ```
+
+### Substring:
+
+```mysql
+SELECT SUBSTRING('Kirankumar Yadav, 12') AS Last_Name;
+SELECT SUBSTR('Kirankumar Yadav', 12) AS Last_Name;
+
+# All the characters till first delimiter:
+SELECT SUBSTRING_INDEX('My Name is Kirankumar', ' ', 1)
+# e.g. My
+
+# String after last delimiter:
+SELECT SUBSTRING_INDEX('My Name is Kirankumar', ' ', -1)
+# e.g. Kirankumar
+```
+
+### SOUNDEX: Find similar sounding words.
+
+```mysql
+SELECT SOUNDEX('Bill'), SOUNDEX('Bell');
+```
+
