@@ -11,6 +11,7 @@ DECIMAL(1, 2), DECIMAL(8, 3), DECIMAL(10, 0)
 # e.g. 3.47, 10000000.474, 1234567890
 
 # Numeric - Floating Point
+# Never use FLOAT for money.
 NUMERIC(1, 2), NUMERIC(9, 2), FLOAT, DOUBLE
 # e.g. 3.47, 1234567.89
 
