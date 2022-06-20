@@ -24,7 +24,7 @@ NUMERIC(1, 2), NUMERIC(9, 2), FLOAT, DOUBLE
 'Kirankumar Yadav', 'Ram Kapoor', 'Chinaswami Mutuswami Krishnagopal Santhnam'
 
 # Fixed length strings are prefixed or padded with 0's
-BINARY(8)  
+BINARY(8) # Non text based strings.
 VARBINARY(8)
 
 # BLOB - Binary Large Object Storage
