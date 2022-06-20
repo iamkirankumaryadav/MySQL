@@ -14,7 +14,9 @@ DECIMAL(1, 2), DECIMAL(8, 3), DECIMAL(10, 0)
 # Never use FLOAT for money.
 NUMERIC(1, 2), NUMERIC(9, 2), FLOAT, DOUBLE
 # e.g. 3.47, 1234567.89
+```
 
+```mysql
 # String - Fixed Length 
 '2286700', '4A11781', 'MB 4554'
 
@@ -36,12 +38,29 @@ TINYTEXT
 TEXT
 MEDIUMTEXT
 LONGTEXT
+```
 
+```mysql
 # Date and Time
+# Current Date and Time ( Format: yyyy-mm-dd hh:mm:ss )
+SELECT NOW(); 
 DATE 
 DATETIME  : 2022-02-07 21:45:55
 TIMESTAMP : 1996-01-01 to 2022-01-01
 
+DROP TABLE IF EXISTS Temp;
+
+CREATE Temp (
+  ID INT UNSIGNED UNIQUE AUTO_INCREMENT PRIMARY KEY,
+  Stamp DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  Name VARCHAR(64)
+);
+
+INSERT INTO Temp (Name)
+VALUES ('Kirankumar Yadav')
+```
+
+```mysql
 # Enumerations
 ENUM: Single value from list
 SET: Multiple values from list
