@@ -17,6 +17,14 @@ WHERE Name RLIKE 'y$'
 ORDER BY Name;
 ```      
 
+### String Concatenation:
+
+```mysq
+SELECT 'Kirankumar' || ' ' || 'Yadav' AS Name;
+
+SELECT CONCAT('Kirankumar', ' ', 'Yadav') AS Name;
+```
+
 ### Numeric Conversion:
 
 ```mysql
