@@ -9,4 +9,10 @@ SELECT Name
 FROM Country
 WHERE Name LIKE '_a%' 
 ORDER BY Name;
+
+# Select all country names ending with y using Regular Expression:
+SELECT Name
+FROM Country
+WHERE Name RLIKE 'y$' 
+ORDER BY Name;
 ```      
