@@ -46,6 +46,9 @@ SELECT COUNT(*) FROM Employee;
 
 # Count rows of particular column:
 SELECT COUNT(Name) FROM Employee;
+
+# Count distinct rows of particular column:
+SELECT COUNT(DISTINCT City) FROM Employee;
 ``` 
 
 <h3 name=top><b>3. TOP</b></h3> 
