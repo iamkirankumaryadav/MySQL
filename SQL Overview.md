@@ -1,6 +1,6 @@
 # `SQL`
 
-<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a> | <a href=#join>JOIN</a>
+<a href=#use>USE</a> | <a href=#select>SELECT</a> | <a href=#top>TOP</a> | <a href=#limit>LIMIT</a> | <a href=#orderby>ORDER BY</a> | <a href=#create>CREATE</a> | <a href=#insert>INSERT INTO</a> | <a href=#update>UPDATE</a> | <a href=#delete>DELETE</a> | <a href=#drop>DROP</a> | <a href=#join>JOIN</a> | <a href=#counts>COUNT(*)</a> | <a href=#count>COUNT(ColumnName)</a>
 
 ### Finding Databases, Tables and Columns:
 ```mysql
@@ -164,3 +164,11 @@ JOIN Personal_Details AS b
 ON a.EID = b.EID
 ORDER BY a.Name ASC, b.salary DESC;
 ```
+
+<h3 name=counts><b>11. COUNT(*)</b></h3>
+
+- Counts the total number of rows in the table (Including the `NULL` values) 
+
+<h3 name=count><b>13. COUNT(ColumnName)</b></h3>
+
+- Count the number of `NON NULL` rows.
