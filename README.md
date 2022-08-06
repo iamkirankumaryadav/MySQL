@@ -1,4 +1,4 @@
-# MySQL
+# `MySQL`
 
 ## `RDBMS` : Relational Database Management System
 
